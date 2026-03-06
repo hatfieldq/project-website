@@ -53,3 +53,35 @@ img {
 a {
     color: white;
 }
+
+ /* Navigation Bar CSS: edited from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ .topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+ }
+
+ .topnav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ .topnav li a:hover {
+    background-color: #111111;
+ }
+
+ .home {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;    
+    background-color: #111111;
+ }
+
+  .home :hover {
+    background-color: #333333;
+ }
